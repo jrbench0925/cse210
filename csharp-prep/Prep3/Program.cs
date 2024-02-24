@@ -42,7 +42,6 @@ class Program
             }
             Console.Write("Would you like to play again? ");
             keepPlaying = Console.ReadLine().ToLower();
-            Console.WriteLine ($"Keep playing is {keepPlaying}");
         }
     }
 }
